@@ -1,0 +1,47 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0px 20px;
+}
+
+.container {
+  max-width: 900px;
+  padding: 50px 0px;
+  display: flex;
+  position: relative;
+  top: 100px;
+  margin: auto;
+  border: 1px solid black;
+  border-radius: 15px;
+  flex-direction: column;
+  background: linear-gradient(90deg, hsl(152, 100%, 50%) 0%, hsl(186, 100%, 69%) 100%);
+}
+.container h2 {
+  text-align: center;
+}
+
+.login-form {
+  padding: 0px 15px;
+  display: flex;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.login-form input {
+  max-width: 100%;
+  padding: 15px 25px;
+  flex: 1 1 250px;
+  border-radius: 10px;
+  border: none;
+  display: block;
+}
+.login-form button {
+  padding: 15px 20px;
+  flex: 1 1 100px;
+  border-radius: 10px;
+  border: none;
+}/*# sourceMappingURL=main.css.map */

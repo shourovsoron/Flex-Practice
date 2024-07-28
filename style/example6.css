@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+body {
+  position: relative;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0px 15px;
+}
+
+.card-section {
+  padding: 50px;
+  margin-bottom: 100px;
+}
+
+.all-img-wrapper {
+  display: flex;
+  height: 1000px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 15px;
+  align-items: start;
+  align-content: flex-start;
+}
+.all-img-wrapper img {
+  width: 300px;
+  flex: 1 1 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.42);
+}
+.all-img-wrapper img:nth-child(2) {
+  flex-grow: 2;
+}
+
+.OpenImage {
+  position: fixed;
+  display: none;
+  opacity: 0;
+  flex-direction: column;
+  transition: all 0.4s;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8784313725);
+}
+
+.ShowImage {
+  display: flex;
+  opacity: 1;
+}
+.ShowImage .CloseBTN {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: #fff;
+  font-size: 30px;
+  background: none;
+  border: none;
+}/*# sourceMappingURL=example6.css.map */

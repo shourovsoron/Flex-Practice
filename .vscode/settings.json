@@ -1,0 +1,12 @@
+{
+    "files.autoSave": "onFocusChange",
+    "liveSassCompile.settings.formats": [
+
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "/style",
+            "savePathReplacementPairs": null
+        }
+    ]
+}
